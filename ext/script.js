@@ -22,16 +22,16 @@ document.getElementById("auto-fill").addEventListener("click", () => {
 
 document.getElementById("reset-fields").addEventListener("click", () => {
 	document.getElementById('email').value = '';
-	document.getElementById('firstname').value = '';
-	document.getElementById('lastname').value = '';
-	document.getElementById('address1').value = '';
-	document.getElementById('address2').value = '';
+	document.getElementById('first-name').value = '';
+	document.getElementById('last-name').value = '';
+	document.getElementById('address-1').value = '';
+	document.getElementById('address-2').value = '';
 	document.getElementById('city').value = '';
 	document.getElementById('country').value = '';
 	document.getElementById('state').value = '';
 	document.getElementById('zip').value = '';
-	document.getElementById('cardnumber').value = '';
-	document.getElementById('cardname').value = '';
+	document.getElementById('card-number').value = '';
+	document.getElementById('card-name').value = '';
 	document.getElementById('expiration').value = '';
 	document.getElementById('cvv').value = '';
 });
