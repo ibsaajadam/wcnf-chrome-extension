@@ -1,22 +1,88 @@
-<HTML>
-    <body>
-        <input type="text" id="email" placeholder="email">
-        <input type="text" id="first-name" placeholder="first name">
-        <input type="text" id="last-name" placeholder="last name">
-        <input type="text" id="address-1" placeholder="address 1">
-        <input type="text" id="address-2" placeholder="address 2">
-        <input type="text" id="city" placeholder="city">
-        <input type="text" id="country" placeholder="country">
-        <input type="text" id="state" placeholder="state">
-        <input type="text" id="zip" placeholder="zip">
-        <input type="text" id="card-number" placeholder="card number">
-        <input type="text" id="card-name" placeholder="card name">
-        <input type="text" id="expiration" placeholder="expiration">
-        <input type="text" id="cvv" placeholder="cvv">
-        <button id="save">Save</button>
-        <button id="load">Load</button>
-        <button id="autofill">Autofill</button>
+<html style="height: 300px; width: 400px">
+    <head>
+        <link rel="stylesheet" href="../libs/bootstrap-5.1.1-dist/css/bootstrap.min.css">
+    </head>
+
+    <body style="height: 300px; width: 400px; background-color: F8F8F8;">
+        <header style="background-color:white; overflow: hidden; position: fixed; top: 0; width: 100%; z-index: 1;">
+            <h3 class="float-md-start mb-0" style="text-align: center; margin: 20px;">W.C.N.F. Autofiller</h3>
+        </header>
+            
+        <div style="margin-top: 50px; margin-left: 10px; margin-right: 10px;">
+            <!-- Buttons -->
+            <div style="text-align: center; margin-top: 70px; margin-bottom:10px">
+                <button class="btn btn-primary" id="auto-fill">Auto Fill</button>
+                <button class="btn btn-primary" id="reset-fields">Reset Fields</button>
+                <button class="btn btn-primary" id="save">Save</button>
+                <button class="btn btn-primary" id="load">Load</button>
+            </div>
+
+            <!-- Input fields -->
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">Email</span>
+                <input type="text" id="email" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            </div>
+
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">First Name</span>
+                <input type="text" id="first-name" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            </div>
+
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">Last Name</span>
+                <input type="text" id="last-name" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            </div>
+            
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">Address 1</span>
+                <input type="text" id="address-1" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            </div>
+
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">Address 2</span>
+                <input type="text" id="address-2" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            </div>
+
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">Country</span>
+                <input type="text" id="country" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            </div>
+
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">City</span>
+                <input type="text" id="city" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+
+                <span class="input-group-text" id="inputGroup-sizing-sm">State</span>
+                <input type="text" id="state" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            </div>
+
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">Zipcode</span>
+                <input type="text" id="zip" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            </div>
+
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">Card Number</span>
+                <input type="text" id="card-number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+
+                <span class="input-group-text" id="inputGroup-sizing-sm">Card Name</span>
+                <input type="text" id="card-name" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            </div>
+
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">Expiration Date (MM/YY)</span>
+                <input type="text" id="expiration" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            </div>
+
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">Security code</span>
+                <input type="text" id="cvv" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            </div>
+
+        <div style="margin: 10px; color: white">
+            <br>
+        </div>
 
         <script src="script.js"></script>
     </body>
-</HTML>
+</html>
