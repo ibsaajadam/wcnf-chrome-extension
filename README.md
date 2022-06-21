@@ -6,7 +6,7 @@ A Chrome extension that fills in the checkout page of [With Christ No Fear](http
 This is a Chrome extension that autofills the checkout page for my person website - With Christ No Fear.
 
 ## Installation
-To use the Chrome extension, please follow the steps below:
+To use the Chrome extension, please first download code then follow the steps below:
 
 1. Install the Chrome browser
 2. Go to the address: `chrome://extensions`
