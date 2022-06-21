@@ -3,7 +3,7 @@
 A Chrome extension that fills in the checkout page of [With Christ No Fear](https://www.withchristnofear.com)
 
 ## About the Project
-This is a Chrome extension that autofills the checkout page for my person website - With Christ No Fear.
+This is a Chrome extension that autofills the checkout page for my person website - With Christ No Fear. Styled with Bootstrap 5.
 
 <img src="assets/images/wcnfautofiller.png">
 
